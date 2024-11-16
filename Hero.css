@@ -1,0 +1,104 @@
+/* Main container styling */
+.main-container {
+  display: flex;
+  justify-content: space-between; /* Aligns left and right sections */
+  align-items: flex-start;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left section styling */
+.left-section {
+  max-width: 50%;
+}
+
+.left-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.left-section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Age group buttons styling */
+.age-group-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  
+}
+
+.age-group-buttons button {
+  padding: 10px 20px;
+  border: 1px solid #8d8d8d;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  font-size: 1rem;
+  color: #333; /* Change this to your desired font color */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.age-group-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+/* CTA button styling (separate) */
+.cta-button-container {
+  margin-top: 20px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background: linear-gradient(90deg, #feb47b, #ff7e5f);
+}
+
+/* Offer details styling */
+.offer-details {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.offer-details .join-now {
+  color: #ff5722;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Right section styling */
+.right-section {
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}

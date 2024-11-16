@@ -1,0 +1,141 @@
+/* AuthPage.css */
+
+/* Page Background */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+background-color: lightcyan;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+  }
+  
+  /* Auth Form Container */
+  .auth-form-container {
+    width: 100%;
+    max-width: 400px;
+    height: 450px; /* Adjusted height to fit the elements comfortably */
+    padding: 30px;
+    background-color: #ffffffd5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Form Title */
+.auth-form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Add space below title */
+  color: #333;
+}
+
+/* Input Fields */
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0; /* Space between each input */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.auth-input:focus {
+  border-color: #4CAF50; /* Green border on focus for better UX */
+  outline: none;
+}
+
+/* Submit Button */
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px; /* Space above the button */
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #43a047;
+}
+
+/* Link to Register */
+.auth-secondary-link {
+  display: block;
+  margin-top: 15px; /* Space above the link */
+  color: #4CAF50;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-secondary-link:hover {
+  text-decoration: underline;
+}
+
+  
+  /* Divider */
+  .auth-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .auth-divider::before,
+  .auth-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #f0f0f0;
+  }
+  
+  .auth-divider:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .auth-divider:not(:empty)::after {
+    margin-left: .25em;
+  }
+  
+  /* Additional styling for social login buttons (optional) */
+  .auth-social-button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .auth-social-button.facebook {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  .auth-social-button.google {
+    background-color: #db4437;
+    color: #fff;
+  }
+  
+  .auth-social-button:hover {
+    opacity: 0.9;
+  }
+  
+  .auth-page {
+    background-color: #f0f0f0;
+  }
+  

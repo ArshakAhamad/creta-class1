@@ -1,0 +1,83 @@
+/* LandingPage.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px; /* Adjusted for a balanced look */
+  height: auto;
+  margin-right: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  border: 1px solid #4CAF50;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #4CAF50;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.contact {
+  width: 150px;
+  height: auto;
+}
+
+.contact img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  margin-left: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-buttons {
+    margin: 10px 0;
+  }
+
+  .title {
+    margin-left: 0;
+  }
+}
